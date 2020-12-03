@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translater</title>
+    <style>
+        textarea {
+            display: block;
+            margin: auto;
+            height: 4rem;
+            width: 38rem;
+            border: 1.5px solid black;
+        }
+
+        textarea:hover {
+            box-shadow: 0px 0px 1.5px 1.5px #D1D5DB;
+        }
+
+        h1 {
+            color: blueviolet;
+            font-weight: bolder;
+
+
+        }
+
+        h3 {
+            margin-top: 3px;
+            font-weight: bold;
+            color: blueviolet;
+            text-align: center;
+            transition: 1s;
+            margin-bottom:1cm ;
+            
+        }
+        h3:hover{
+            background-color: darkgray;
+            font-size: 0.60cm;
+        
+        }
+       button{
+           background-color: blueviolet;
+           height: 40px;
+           width: 100px;
+           color: white;
+           font-weight: bold;
+           opacity: 0.40;
+           transition: 0.5s;
+           border-radius: 40%;
+           border-color: white;
+         margin: 1.5cm 17cm;
+ 
+       }
+       button:focus {
+           background-color: #DC2626;
+
+       }
+       button:hover{opacity: 1;} 
+       div{
+        display: block;
+            margin: auto;
+            height: 4rem;
+            width: 38rem;
+            border: 1.5px solid black;
+            
+        } 
+       
+    </style>
+
+</head>
+
+<body>
+    <h1> language Translater</h1>
+    <h3>Input area👇</h3>
+    <textarea id="txt-input" placeholder="Enter your text ..."></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <h3>Output 👇 </h3>
+     <div id="output"> </div>
+     <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
